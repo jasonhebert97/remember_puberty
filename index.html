@@ -1,0 +1,151 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Remember Puberty?</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=VT323');    
+    html {
+        zoom: 75%;
+        width: 100%;
+        height: 100%;
+        background: rgb(163,168,197);
+    }
+    body {
+        width: 1500px;
+        height: 1250px;
+        margin: 0 auto;
+        background: rgb(238,238,238);
+        font-family: 'VT323', monospace;
+    }
+    img {
+        display: none;
+        margin: 0 auto;
+        position: absolute;
+        top: 250px;
+        right: 450px;
+    }
+    .child {
+        left: -150px;
+    }
+    .teen {
+        right: 525px;
+    }
+    .adult {
+        right: 100px;
+    }
+    #spot {
+        position: absolute;
+        top: 90px;
+        left: 400px;
+        display: inline-block;
+        border: 5px solid rgb(163,168,197);
+        border-radius: 20px;
+    }
+    h1 {
+        position: relative;
+        top: 300px;
+        left: 100px;
+        line-height: 75px;
+        width: 100px;
+        font-size: 60px;
+    }
+    h1:hover {
+        cursor: pointer;
+        color: rgb(163,168,197);
+    }
+    #spot:hover {
+        cursor: pointer;
+    }
+</style>    
+</head>
+
+    <!------- BODY! ------>
+    
+<body>
+<img src="spot_babby.png" id="spot" width="1000px" height="150px" alt="spot the babby" onClick="window.location.reload()">
+
+<img src="2011.png" class="child" id="2011" width="700px" height="1000px" alt="2011">    
+<img src="2010.png" class="child" id="2010" width="700px" height="1000px" alt="2010">  
+<img src="2013.png" class="teen" id="2013" width="700px" height="1000px" alt="2013">   
+<img src="2012.png" class="teen" id="2012" width="700px" height="1000px" alt="2012">    
+<img src="2015.png" class="adult" id="2015" width="700px" height="1000px" alt="2015">    
+<img src="2016.png" class="adult" id="2016" width="700px" height="1000px" alt="2016">  
+<img src="2014.png" class="adult" id="2014" width="700px" height="1000px" alt="2014">    
+    
+<h1 id="c2010">2010</h1>
+<h1 id="c2011">2011</h1>
+<h1 id="c2012">2012</h1>
+<h1 id="c2013">2013</h1>
+<h1 id="c2014">2014</h1>
+<h1 id="c2015">2015</h1>
+<h1 id="c2016">2016</h1>
+    
+    <!----- SCRIPT! ------>
+    
+<script>  
+var c2010 = document.getElementById("c2010");
+    c2010.onclick = function() {
+        var i2010 = document.getElementById("2010");
+        if (i2010.style.display == "none") {
+            i2010.style.display = "inline-block";
+        } else {
+            i2010.style.display = "none";
+        }
+    }
+var c2011 = document.getElementById("c2011");
+    c2011.onclick = function() {
+        var i2011 = document.getElementById("2011");
+        if (i2011.style.display == "none") {
+            i2011.style.display = "inline-block";
+        } else {
+            i2011.style.display = "none";
+        }
+    }    
+var c2012 = document.getElementById("c2012");
+    c2012.onclick = function() {
+        var i2012 = document.getElementById("2012");
+        if (i2012.style.display == "none") {
+            i2012.style.display = "inline-block";
+        } else {
+            i2012.style.display = "none";
+        }
+    }    
+var c2013 = document.getElementById("c2013");
+    c2013.onclick = function() {
+        var i2013 = document.getElementById("2013");
+        if (i2013.style.display == "none") {
+            i2013.style.display = "inline-block";
+        } else {
+            i2013.style.display = "none";
+        }
+    }
+var c2014 = document.getElementById("c2014");
+    c2014.onclick = function() {
+        var i2014 = document.getElementById("2014");
+        if (i2014.style.display == "none") {
+            i2014.style.display = "inline-block";
+        } else {
+            i2014.style.display = "none";
+        }
+    }    
+var c2015 = document.getElementById("c2015");
+    c2015.onclick = function() {
+        var i2015 = document.getElementById("2015");
+        if (i2015.style.display == "none") {
+            i2015.style.display = "inline-block";
+        } else {
+            i2015.style.display = "none";
+        }
+    }
+var c2016 = document.getElementById("c2016");
+    c2016.onclick = function() {
+        var i2016 = document.getElementById("2016");
+        if (i2016.style.display == "none") {
+            i2016.style.display = "inline-block";
+        } else {
+            i2016.style.display = "none";
+        }
+    }
+</script>    
+</body>
+</html>
